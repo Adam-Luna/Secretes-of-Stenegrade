@@ -1,0 +1,29 @@
+@media only screen and (min-width: 992px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0 0.5em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: 2px solid cornflowerblue;
+    }
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+*{
+    text-decoration: none;
+}
+
+.invisible{
+    color: rgba(100, 149, 237, 0);
+}
+
+.invisible2{
+    /*color: rgba(100, 149, 237, 0);*/
+    font-size: 1px;
+}
+
+.score{
+    font-size: 5px;
+}
